@@ -84,4 +84,8 @@ body {
 .header .icons a:hover,
 .header .icons div:hover {
   color: gold;
+}
+
+#search-btn {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
