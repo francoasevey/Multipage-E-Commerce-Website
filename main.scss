@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -63,6 +63,46 @@ body{
         font-weight: bolder;
 
         i{
+            color: $gold;
+        }
+    }
+
+    .search-form{
+        border-radius: 5rem;
+        height: 5rem;
+        width: 50rem;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        background: $white;
+
+        input{
+            width: 100%;
+            padding-right: 1rem;
+            font-size: 1.7rem;
+            text-transform: none;
+            color: $light-color;
+        }
+
+        label{
+            font-size: 2rem;
+            color: $light-color;
+            cursor: pointer;
+
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+
+    .icons a,
+    .icons div{
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        color: $white;
+        cursor: pointer;
+
+        &:hover{
             color: $gold;
         }
     }
