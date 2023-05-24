@@ -191,6 +191,29 @@ section{
         }
     }
 }
+.home{
+    background: $white;
+
+    .slide{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .image{
+            flex: 1 1 42rem;
+            text-align: center;
+
+            img{
+                height: 30rem;
+            }
+        }
+
+        .content{
+            flex: 1 1 42rem;
+        }
+    }
+}
 .quick-links{
     display: flex;
     align-items: center;

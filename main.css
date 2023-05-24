@@ -163,6 +163,26 @@ section {
   padding-right: 0.5rem;
 }
 
+.home {
+  background: #fff;
+}
+.home .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.home .slide .image {
+  flex: 1 1 42rem;
+  text-align: center;
+}
+.home .slide .image img {
+  height: 30rem;
+}
+.home .slide .content {
+  flex: 1 1 42rem;
+}
+
 .quick-links {
   display: flex;
   align-items: center;
