@@ -49,6 +49,20 @@ body{
 section{
     padding: 3rem 9%;
 }
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: $white;
+    cursor: pointer;
+    background: $blue;
+
+    &:hover{
+        background: $black;
+    }
+}
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -211,6 +225,17 @@ section{
 
         .content{
             flex: 1 1 42rem;
+
+            span{
+                font-size: 2rem;
+                color: $blue;
+            }
+
+            h3{
+                padding-top: .5rem;
+                color: $black;
+                font-size: 3rem;
+            }
         }
     }
 }
