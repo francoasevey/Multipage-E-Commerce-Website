@@ -221,11 +221,14 @@ section {
 }
 .banner .box-container .box {
   position: relative;
-  height: 25rem;
+  height: 30rem;
   border: 0.2rem solid #333;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.banner .box-container .box:hover img {
+  transform: scale(1.1);
 }
 .banner .box-container .box img {
   height: 100%;
@@ -238,6 +241,15 @@ section {
   top: 50%;
   left: 5%;
   transform: translateY(-50%) rotate(45deg);
+}
+.banner .box-container .box .content span {
+  font-size: 1.7rem;
+  color: #0984e3;
+}
+.banner .box-container .box .content h3 {
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  color: #333;
 }
 
 .quick-links {
