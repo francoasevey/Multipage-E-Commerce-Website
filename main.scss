@@ -312,6 +312,17 @@ section{
             gap: 2rem;
             background: $white;
 
+            &:hover{
+                .image{
+                    .main-img{
+                        display: none;
+                    }
+                    .hover-img{
+                        display: inline-block;
+                    }
+                }
+            }
+
             .image{
                 img{
                     height: 15rem;
@@ -319,6 +330,7 @@ section{
 
                 .hover-img{
                     display: none;
+                    animation: fadeIn .2s linear;
                 }
             }
 
@@ -328,9 +340,10 @@ section{
                     color: $black;
                 }
                 .price{
-                    padding: .5rem 0;
+                    padding: .5rem;
                     font-size: 2rem;
                     color: $blue;
+                    padding-bottom: .7rem;
 
                     span{
                         font-size: 1.5rem;

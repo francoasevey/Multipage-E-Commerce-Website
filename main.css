@@ -277,20 +277,28 @@ section {
   gap: 2rem;
   background: #fff;
 }
+.arrivals .box-container .box:hover .image .main-img {
+  display: none;
+}
+.arrivals .box-container .box:hover .image .hover-img {
+  display: inline-block;
+}
 .arrivals .box-container .box .image img {
   height: 15rem;
 }
 .arrivals .box-container .box .image .hover-img {
   display: none;
+  animation: fadeIn 0.2s linear;
 }
 .arrivals .box-container .box .content h3 {
   font-size: 2rem;
   color: #333;
 }
 .arrivals .box-container .box .content .price {
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   font-size: 2rem;
   color: #0984e3;
+  padding-bottom: 0.7rem;
 }
 .arrivals .box-container .box .content .price span {
   font-size: 1.5rem;
