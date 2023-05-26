@@ -306,7 +306,7 @@ section{
 }
 .arrivals{
     .box-container{
-        @include grid(31rem);
+        @include grid(33rem);
 
         .box{
             border-radius: .5rem;
@@ -315,7 +315,7 @@ section{
             box-shadow: $box-shadow;
             display: flex;
             align-items: center;
-            gap: 2rem;
+            gap: 1rem;
             background: $white;
 
             &:hover{
@@ -332,11 +332,11 @@ section{
             .image{
                 img{
                     height: 15rem;
+                    animation: fadeIn .2s linear;
                 }
 
                 .hover-img{
                     display: none;
-                    animation: fadeIn .2s linear;
                 }
             }
 
@@ -524,5 +524,10 @@ section{
                 }
             }
         }
+    }
+    .arrivals .box-container .box{
+        flex-flow: column;
+        gap: 2rem;
+        text-align: center;
     }
 }
