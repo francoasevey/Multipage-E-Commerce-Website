@@ -34,6 +34,16 @@ section {
   padding: 3rem 9%;
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #333;
+}
+.heading span {
+  color: #0984e3;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -250,6 +260,46 @@ section {
   font-size: 2rem;
   padding: 0.5rem 0;
   color: #333;
+}
+
+.arrivals .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+.arrivals .box-container .box {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #fff;
+}
+.arrivals .box-container .box .image img {
+  height: 15rem;
+}
+.arrivals .box-container .box .image .hover-img {
+  display: none;
+}
+.arrivals .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+.arrivals .box-container .box .content .price {
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  color: #0984e3;
+}
+.arrivals .box-container .box .content .price span {
+  font-size: 1.5rem;
+  color: #666;
+  text-decoration: line-through;
+}
+.arrivals .box-container .box .content .stars i {
+  font-size: 1.5rem;
+  color: gold;
 }
 
 .quick-links {

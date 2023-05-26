@@ -49,6 +49,16 @@ body{
 section{
     padding: 3rem 9%;
 }
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    color: $black;
+
+    span{
+        color: $blue;
+    }
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -288,6 +298,55 @@ section{
         }
     }
 }
+.arrivals{
+    .box-container{
+        @include grid(31rem);
+
+        .box{
+            border-radius: .5rem;
+            border: $border;
+            padding: 2rem;
+            box-shadow: $box-shadow;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            background: $white;
+
+            .image{
+                img{
+                    height: 15rem;
+                }
+
+                .hover-img{
+                    display: none;
+                }
+            }
+
+            .content{
+                h3{
+                    font-size: 2rem;
+                    color: $black;
+                }
+                .price{
+                    padding: .5rem 0;
+                    font-size: 2rem;
+                    color: $blue;
+
+                    span{
+                        font-size: 1.5rem;
+                        color: $light-color;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .stars i{
+                    font-size: 1.5rem;
+                    color: $gold;
+                }
+            }
+        }
+    }
+}
 .quick-links{
     display: flex;
     align-items: center;
@@ -349,6 +408,7 @@ section{
         filter: drop-shadow(0 0 .1rem $black);
     }
 }
+
 
 
 @media (max-width:1200px){
