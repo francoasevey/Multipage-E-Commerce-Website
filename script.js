@@ -19,6 +19,12 @@ window.onscroll = () => {
     searchForm.classList.remove('active');
 }
 
+document.querySelectorAll('.accordion-container .accordion').forEach(accordion =>{
+    accordion.onclick = () =>{
+        accordion.classList.toggle('active');
+    }
+});
+
 var swiper = new Swiper(".home-slider",{
     loop:true,
     grabCursor: true,
