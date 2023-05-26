@@ -456,6 +456,41 @@ section{
         }
     }
 }
+.review{
+    .slide{
+        width: 35rem;
+        padding: 3rem;
+        text-align: center;
+        border: $border;
+        box-shadow: $box-shadow;
+        border-radius: .5rem;
+        background: $white;
+
+        img{
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            margin-bottom: .5rem;
+        }
+
+        h3{
+            font-size: 2rem;
+            color: $black;
+        }
+
+        span{
+            color: $blue;
+            font-size: 1.7rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+            line-height: 2;
+            color: $light-color;
+            padding-top: 1rem;
+        }
+    }
+}
 .quick-links{
     display: flex;
     align-items: center;
