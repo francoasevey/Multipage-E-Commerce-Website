@@ -73,6 +73,12 @@ section{
         background: $black;
     }
 }
+@keyframes fadeIn{
+    0%{
+        transform: scale(.5);
+        opacity: 0;
+    }
+}
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
