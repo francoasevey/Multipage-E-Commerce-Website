@@ -221,7 +221,7 @@ section {
 }
 .banner .box-container .box {
   position: relative;
-  height: 30rem;
+  height: 25rem;
   border: 0.2rem solid #333;
   border-radius: 0.5rem;
   overflow: hidden;
