@@ -811,9 +811,18 @@ section {
   margin-top: 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border: 0.2rem solid #333;
+  border-radius: 0.5rem;
   background: #fff;
   padding: 2rem;
   padding-top: 1rem;
+}
+.shopping-cart .cart-total h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+.shopping-cart .cart-total h3 span {
+  color: #0984e3;
 }
 
 .quick-links {
@@ -960,6 +969,12 @@ section {
     text-align: center;
   }
   .content form .inputBox input {
+    width: 100%;
+  }
+  .shopping-cart .cart-total {
+    text-align: center;
+  }
+  .shopping-cart .cart-total .btn {
     width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
